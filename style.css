@@ -190,12 +190,32 @@ body {
 
 .portail-text {
     font-weight: bolder;
-    color: #09f809;
+    color: #ffffff;
 }
 
 .portail-sous-text {
+    font-size: large;
     font-weight: bolder;
     color: #00ff00;
+}
+
+.portail-sous-text:hover {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #00ff00;
+}
+
+.img,
+.vid {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid green;
 }
 
 @media (max-width: 768px) {
